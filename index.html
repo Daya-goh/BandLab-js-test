@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="main.css" />
+    <script
+      src="https://code.jquery.com/jquery-3.6.1.min.js"
+      integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ="
+      crossorigin="anonymous"
+    ></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- Nav Bar -->
+    <div class="navBar">
+      <a class="home-button" href="index.html">Home</a>
+      <a class="listen-button" href="listen.html">Listen</a>
+    </div>
+
+    <!-- First page -->
+    <div id="first-page" class="page">
+      <div class="page-body">
+        <h1 class="title">Posts</h1>
+        <div class="button-group">
+          <button type="submit" onclick="getData()" class="button">
+            Get All Posts
+          </button>
+          <button class="sortUser-button button">Sort by Users</button>
+          <button class="sortAZ-button button">Sort A-Z</button>
+        </div>
+        <div class="note"></div>
+
+        <div id="data-display"></div>
+      </div>
+    </div>
+    <!-- Second page -->
+    <!-- <div id="second-page" class="page">
+      <div class="page-body">
+        <h1>Listen to music</h1>
+        <div>
+          <h3>New Wave</h3>
+          <audio controls>
+            <source src="./audio/new-wave-kit.ogg" type="audio/ogg" />
+          </audio>
+        </div>
+        <div>
+          <h3>Synth organ</h3>
+          <audio controls>
+            <source src="./audio/synth-organ.ogg" type="audio/ogg" />
+          </audio>
+        </div>
+      </div>
+    </div> -->
+    <script src="./app.js"></script>
+  </body>
+</html>

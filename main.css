@@ -1,0 +1,86 @@
+/* ------------------------- post display ------------------------- */
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px;
+  padding: 10px;
+  border-style: solid;
+  border-radius: 10px;
+  border-color: black;
+  width: 350px;
+}
+
+#data-display {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* ---------------------------- navbar ---------------------------- */
+.navBar {
+  display: flex;
+  align-items: center;
+  height: 50px;
+  background-color: skyblue;
+}
+
+.home-button {
+  cursor: pointer;
+  padding: 13px 20px;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.listen-button {
+  cursor: pointer;
+  padding: 13px 20px;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.navBar a:hover {
+  background-color: rgb(32, 162, 209);
+  color: black;
+}
+
+/* ------------------------- main content ------------------------- */
+body {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+}
+
+.page-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0px 50px;
+}
+
+.title {
+  text-align: center;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.button-group {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 500px;
+}
+
+.button {
+  border: 1px;
+  border-radius: 10px;
+  border-color: black;
+  background-color: whitesmoke;
+  margin: 10px;
+  height: 50px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: skyblue;
+}
